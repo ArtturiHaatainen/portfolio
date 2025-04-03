@@ -1,3 +1,3 @@
 # Portfolio
-
-At some point this will be an complete portfolio about me and my work.
+Currently I'm hosting my own little portfolio through Github Pages!
+[Portfolio](https://artturihaatainen.github.io/portfolio/#projects)
