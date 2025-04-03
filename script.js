@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 projectItem.innerHTML = `
                     <h3>${project.title}</h3>
                     <p>${project.description}</p>
+                    <p>Technologies: ${project.technologies.join(", ")}</p>
                     <a href="${project.link}" target="_blank">Check it out!</a>
                 `;
                 projectList.appendChild(projectItem);
