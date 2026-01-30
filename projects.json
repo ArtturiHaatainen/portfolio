@@ -4,6 +4,12 @@
     "description": "Simple YouTube downloader using Python and Tkinter.",
     "technologies": ["Python", "Tkinter", "Customtkinter"],
     "link": "https://github.com/ArtturiHaatainen/PythonProjects/tree/main/yt_downloader"
+  },
+  {
+    "title": "Word association Solitaire Finnish",
+    "description": "A simple word association / category-based solitaire game for mobile devices.",
+    "technologies": ["React Native", "JavaScript/TypeScript", "Expo"],
+    "link": "https://github.com/ArtturiHaatainen/Word-Association-Solitaire-Finnish"
   }
   ]
   
