@@ -10,6 +10,12 @@
     "description": "A simple word association / category-based solitaire game for mobile devices.",
     "technologies": ["React Native", "JavaScript/TypeScript", "Expo"],
     "link": "https://github.com/ArtturiHaatainen/Word-Association-Solitaire-Finnish"
+  },
+  {
+    "title": "DevSetup",
+    "description": "DevSetup is a Python-based CLI tool for quickly bootstrapping new development projects in a Linux or WSL environment.",
+    "technologies": ["Python", "Git", "Linux/WSL", "Setuptools/pip"],
+    "link": "https://github.com/ArtturiHaatainen/devsetup"
   }
   ]
   
