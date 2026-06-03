@@ -9,13 +9,26 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 4rem;
-    background: linear-gradient(to bottom, #121212, #313131);
+    background: 
+    radial-gradient(
+        circle at top,
+        rgba(255,140,66,.15),
+        transparent 40%
+    ),
+    #111;
     /*background-color: #121212;*/
     color: #e0e0e0;
 }
-
+#myself {
+    transition: all .4s ease;
+}
+#myself:hover {
+    transform: scale(1.03);
+    box-shadow:
+        0 0 30px rgba(255,140,66,.5);
+}
 header {
-    background: linear-gradient(to right, #ff4e50, #fc913a);
+    background: linear-gradient(135deg, #ff5e62, #ff9966);
     color: white;
     padding: 1rem;
     text-align: center;
@@ -116,6 +129,22 @@ section {
 
 .project a:hover {
     text-decoration: underline;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.tech-stack span {
+    background: rgba(255,140,66,.15);
+    color: #ff8c42;
+    border: 1px solid #ff8c42;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: .85rem;
 }
 #contact{
     height: auto;
