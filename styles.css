@@ -94,6 +94,28 @@ section {
     margin: auto;
 }
 
+.cv-button {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    margin: 1rem 0.5rem 0 0;
+    background: linear-gradient(135deg, #ff5e62, #ff9966);
+    color: white;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(255, 94, 98, 0.25);
+    transition: all 0.3s ease;
+}
+
+.cv-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 140, 66, 0.45);
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
 #project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
